@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    app:cardCornerRadius="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO. BERKAS"
+                android:textColor="@color/birutua"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvNoberkas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="47735/2019"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAMA PEMOHON "
+                android:textStyle="bold"
+                android:textColor="@color/birutua"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvNamaPemohon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Siti Purwanti"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOMOR HAK"
+                android:textColor="@color/birutua"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvHMC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HM 00943"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DESA/KELURAHAN"
+                android:textColor="@color/birutua"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvDesa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kwadungan"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KECAMATAN"
+                android:textStyle="bold"
+                android:textColor="@color/birutua"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvKecamatan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kerjo"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KABUPATEN/KOTA"
+                android:textStyle="bold"
+                android:textColor="@color/birutua"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvKabupatenKota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Karanganyar "
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HARI"
+                android:textStyle="bold"
+                android:textColor="@color/birutua"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvHari"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Senin"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TANGGAL"
+                android:textStyle="bold"
+                android:textColor="@color/birutua"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvtanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19/08/2019"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PETUGAS UKUR"
+                android:textStyle="bold"
+                android:textColor="@color/birutua"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/tvPetugasUkur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lilik P"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO. HP"
+                android:textStyle="bold"
+                android:textColor="@color/birutua"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/tvNoHP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="089696"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

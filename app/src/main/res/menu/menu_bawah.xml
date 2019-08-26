@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menucari"
+        android:enabled="true"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Cari"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menutambah"
+        android:enabled="true"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="Tambah"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuadmin"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:title="Admin"
+        android:icon="@drawable/ic_account_circle_black_24dp"/>
+</menu>

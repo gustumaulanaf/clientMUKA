@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:icon="@drawable/ic_info_outline_black_24dp"
+    android:title="Tentang"
+    android:enabled="true"
+    android:id="@+id/tentang"/>
+</menu>
